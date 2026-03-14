@@ -1,0 +1,33 @@
+name:                game-of-life
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/chrisbeltr/conways-brain-of-fuck
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2021 Author name here
+#category:
+extra-source-files:
+- README.md
+
+default-extensions:
+- OverloadedStrings
+
+dependencies:
+  - base >= 4.7 && < 5
+  - data-default
+  - lens
+  - monomer
+  - text
+  - text-show
+  - split
+
+executables:
+  cbf:
+    source-dirs:      src
+    main:             Main
+    other-modules:    [Logic, Brainfuck]
+    ghc-options:
+    - -fwarn-incomplete-patterns
+    - -threaded
