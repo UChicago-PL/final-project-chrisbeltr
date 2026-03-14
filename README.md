@@ -9,7 +9,7 @@ We have implemented Conway’s Game of Life in Haskell. Running our project will
 We have also implemented a BrainFuck (BF) parser, such that BF code can be imported and turned into corresponding game grid states. The program can then run the stimulation of the BF-turned-conway-game. At any state of the game grid, the program can turn the grid state into BF code and export it into a BF file.
 
 # How to run
-- Set up GHC and Stack if you haven’t already (follow the directions at `https://www.haskell.org/ghcup/`, specifically checking the option for better integration of stack with GHCup)
+- Set up GHC and Stack if you haven’t already (follow the directions at https://www.haskell.org/ghcup/, specifically checking the option for better integration of stack with GHCup)
 - Clone the repo
 - Install any dependencies from monomer (https://github.com/fjvallarino/monomer/blob/main/docs/tutorials/00-setup.md#libraries-sdl2-and-glew) 
 - Run `stack run cbf`
